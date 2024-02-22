@@ -5,7 +5,7 @@
 <img src="./doc/assets/img/preview.png" width="400" alt="preview result"> <br>
 
 # Doc
- -Jupyter: <a href="https://github.com/VPoussou/town_electricity_rebuild/blob/master/doc/jupter" _target> Notre Notebook</a>
+ -Jupyter: <a href="https://github.com/VPoussou/town_electricity_rebuild/tree/dev/doc/jupyter" _target> Notre Notebook</a>
 
 # Contributors
  - Joel Ivan Sobgui
