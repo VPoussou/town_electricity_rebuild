@@ -1,4 +1,4 @@
-# Metric Test Tow Repairing v0.1
+# Metric Test Town Repairing v0.1
 
 <img src="./doc/assets/img/shape_city.png" width="400"> <br>
 <img src="./doc/assets/img/priority.png" width="400"> <br>
