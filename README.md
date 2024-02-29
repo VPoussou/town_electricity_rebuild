@@ -1,8 +1,8 @@
 # Metric Test Town Repairing v0.1
 
-<img src="./doc/assets/img/shape_city.png" width="400"> <br>
-<img src="./doc/assets/img/priority.png" width="400"> <br>
-<img src="./doc/assets/img/preview.png" width="400" alt="preview result"> <br>
+<img src="img/shape_city.png" width="400"> <br>
+<img src="img/preview.png" width="400"> <br>
+<img src="img/priority.png" width="400" alt="preview result"> <br>
 
 # Steps
 With a venv and the requirements installed, running the main.py file will print the list of infras, in graph_creation.ipynb, more detailed steps and graphs can be found.
