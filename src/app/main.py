@@ -3,7 +3,7 @@ import json
 from .model import (Batiment, Infra)
 
 
-def main(file='./app/assets/data/reseau_en_arbre.csv'):
+def main(file='./src/app/assets/data/reseau_en_arbre.csv'):
     # Le fichier CSV
     network_file = file
     # Lire le fichier CSV avec Pandas
@@ -41,7 +41,7 @@ def main(file='./app/assets/data/reseau_en_arbre.csv'):
                 infra_id,
                 infra_df['infra_type'].iloc[0],
                 infra_df['nb_maisons'].sum(),
-                infra_df['longueur'].sum(),
+                infra_df['longueur'].iloc[0],
             )
             liste_infras.append(infra)
         batiment = Batiment(index_bat, liste_infras)

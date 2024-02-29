@@ -1,1 +1,4 @@
 pandas~=2.2.0
+notebook
+matplotlib
+geopandas
