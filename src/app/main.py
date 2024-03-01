@@ -79,6 +79,8 @@ def main(file='./src/app/assets/data/reseau_en_arbre.csv'):
         list_infras = batiment.list_infras
         # print(f'Batiment id: {batiment.id_building}')
         # print(f'Min infra id: {min(list_infras)}')
+        for infra in list_infras:
+            infra.repair_infra()
 
         bat_dic = {
             'id_batiment': batiment.id_building,
