@@ -1,7 +1,7 @@
 # Metric Test Town Repairing v0.1
 
 <img src="img/shape_city.png" width="400"> <br>
-<img src="img/preview.png" width="400"> <br>
+<img src="img/algo.png" width="400"> <br>
 <img src="img/priorities.png" width="400" alt="preview result"> <br>
 
 # Steps
