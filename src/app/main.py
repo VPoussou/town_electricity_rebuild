@@ -7,11 +7,11 @@ def main(file='./src/app/assets/data/reseau_en_arbre.csv'):
     # Le fichier CSV
     network_file = file
     # Lire le fichier CSV avec Pandas
-    network_df = pd.read_csv(network_file)
+    network_df = pd.read_csv(network_file).drop_duplicates()
 
     ########## ALGORITHME ###################
 
-    # Trier uniquement les infratructures à remplacer
+    # Trier uniquement les infrastructures à remplacer
     network_df = network_df[network_df['infra_type'] == 'a_remplacer']
     # print(f'Network shape: {network_df.shape}')
     # print(f'{network_df}')
@@ -19,7 +19,7 @@ def main(file='./src/app/assets/data/reseau_en_arbre.csv'):
     # Créer la liste des batiments
     BatimentList = []
 
-    # Grouper par identifiant de l'infrature
+    # Grouper par identifiant de l'infrastructure
     infras_df = network_df.groupby(by='infra_id')
 
     # Grouper par identifiant du batiment
@@ -69,7 +69,7 @@ def main(file='./src/app/assets/data/reseau_en_arbre.csv'):
     # print(f'Min is {min(BatimentList)}')
     # print(f'{OrderBatimentDict}')
 
-    # Méthode du prof : (Récommandée)
+    # Méthode du prof : (Recommandée)
     PriorityOrder = {}
     PriorityOrderDetail = {}
     i = 1
