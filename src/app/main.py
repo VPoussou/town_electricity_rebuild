@@ -22,7 +22,7 @@ def main(file='./src/app/assets/data/reseau_en_arbre.csv'):
     # Grouper par identifiant de l'infrature
     infras_df = network_df.groupby(by='infra_id')
 
-    # Grouper par identifiant de l'infrature
+    # Grouper par identifiant du batiment
     batiments_df = network_df.groupby(by='id_batiment')
     for index_bat, bat_df in batiments_df:
         # print(f'{index_bat}')
